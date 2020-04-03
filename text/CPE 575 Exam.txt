@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B.Eng Exam		Uniben Computer Engineering 2016/2017
+DEPATMENT OF COMPUTER ENGINEERING,
+UNIVERSITY OF BENIN, BENIN CITY
+2016/2017 B.ENG SESSIONAL EXAMINATION
+CPE575: Microcontroller Programming			TIME : 3 HOURS	16/02/17
+						
+ATTEMPT ANY FIVE (5) QUESTIONS ONLY
+1a. 	Write an 8051 assembly language program that sequentially transfers 16 bytes of data stored in external data memory starting at address 8000H to internal RAM starting at address 40H. ( 6 Marks)
+b.	Describe the 8051 bit memory address space.	( 4 Marks)
+c.	Sketch and briefly explain the Timer Mode Register.    (4  Marks)
+
+2a.	Consider the following instructions:   
+i. ANL A, #55h  	ii. ORL A, @R1 	iii. MOV A, @DPTR 		iv. ADDC A, R4
+  I.	Attach addressing mode to each instruction
+II. Describe how instructions for the addressing modes listed are generally coded.  ( 5 Marks)
+b. Write a program that generates 100 Hz pulses on p3.1 with 60% duty cycle	(9 Marks)
+
+3a.	Four speakers(Spk1, spk2, spk3, spk4) are connected to Port 3 of the 8051 microcontroller and are sequentially buzzed for 1s with 0.01s inter-speaker switching time.
+i. Sketch the circuit described
+ii. Write an assembly language program to implement the circuit as specified. ( 10  Marks) 
+b.	It is required to use timers to implement timing operation for 8051 microcontroller. Intervals desired include: I. 150 counts to overflow	II. 550 counts to overflow. III. 100000 counts.  IV.	8 Counts
+State with reason(s) the timer mode of operation most appropriate in each case.  ( 4 Marks)
+4a.	Sketch the 8051 serial port buffer register (SBUF). 	( 2 Marks)
+bi.	Using interrupts, design an 8051 furnace controller that keeps a production environment at 400C ± 2 0C.
+ii.	Sketch the circuit using any suitable temperature sensor. 	( 12 Marks)
+
+5a.	Ten (10) numbers are stored in the 8051 internal RAM starting at address 4FH. Assuming that their sum will not overflow the accumulator:
+i. Write an algorithm outlining how this can be achieved using indirect  addressing
+ii. Draw a flowchart based on the written algorithm
+iii. Write a  program to find the average of the numbers (9 marks)
+bi.	Write the value 46h to external data memory location 2500h
+ ii.	Describe the coding for the addressing modes used for each instruction
+iii.	Explain what each instruction will do when executed (5 marks)
+
+6a.	Four fanciful lighting bulbs, orange, purple, red and green, for use at an amusement park are respectively connected to p1.0, p1.1, p1.2 and p1.3 of the 8051 microcontroller. Write an assembly language program that alternately turns them on for 10s each with a 0.5s wait period before switching from one to another.  (10 Marks)
+b.	List and briefly explain the uses of the 8051 timers.	( 4 Marks)
+7ai.	Show the multiplication process for 5423 x 8761
+  ii.	Outline an algorithm for this multiplication 
+ iii.	Write a program that implements this multiplication.
+iv. Create a multiplication subroutine from the program you have written.
+v. Use the subroutine to multiply 6622 x 6543	( 10  Marks)
+b.	List the 8051 instruction types and give two (2) examples each for any three (3) instruction types.         (4 marks)
+Goodluck
+

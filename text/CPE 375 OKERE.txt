@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLAIYA VICTOR OMOKUDU
+
+
+ENG1406904
+
+
+COMPUTER ENGINEERING
+
+
+COMPUTER ARCHITECTURE AND ORGANIZATION
+
+
+CPE 375
+
+
+ASSIGNMENT
+
+JUSTIFY WHICH OF THE TECHNOLOGIES IS BEST IN TERMS OF EXECUTION TIME (BETWEEN RISC AND CISC)
+To answer the above question we need to first know the meaning of RISC, CISC & Execution Time and the difference between RISC and CISC.
+Reduced Instruction Set Computing or Computers also called RISC for short 
+
+

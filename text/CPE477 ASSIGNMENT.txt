@@ -1,0 +1,339 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEPARTMENT OF COMPUTER ENGINEERING
+FACULTY OF ENGINEERING
+UNIVERSITY OF BENIN
+
+
+
+
+ASSIGNMENT
+ON
+CPE477
+
+
+
+
+NAME: AKONOAFUA  NELSON
+MAT NO: ENG1403431
+LEVEL: 500L
+
+
+
+
+LECTURER: ENGR DR OLAYE
+DIAGRAMS IN QUESTION
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIG 1: A GENERALIZATION HIERARCHY
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIG 2: A  CONSULTATION CLASS DIAGRAM
+
+
+
+QUESTION 1i:
+Describe the model in FIG 1.
+ANSWER:
+The model in FIG 1. Is a GENERALIZATION HIARARCHY model.
+Generalization is the process of extracting shared characteristics from two or more classes, and combining them into a generalized superclass. Shared characteristics can be attributes, associations, or methods.
+          The UML has a specific type of association to denote generalization, the generalization is shown as an arrowhead pointing up to the more general class. This indicates that general practitioners and hospital doctors can be generalized as doctors and that there are three types of Hospital Doctor: those who have just graduated from medical school and have to be
+ supervised (Trainee Doctor); those who can work unsupervised as part of a consultant’s team
+(Registered Doctor); and consultants, who are senior doctors with full decision making
+responsibilities.
+
+QUESTION 1ii:
+Using FIG 2. As a guide, suggest a relationship between the model in FIG 1 & 2.
+ANSWER:
+The model in FIG 1, represents the relationship between classes(super class and its sub-classes) using a rectangle to represent a class and a line to represent the association between the  classes. The lower-level classes are subclasses that inherit the attributes and operations from their superclasses. These lower-level classes then add more specific attributes and operations. 
+                   While FIG 2. show attributes and operations of a class by extending the simple rectangle that represents a class.
+
+
+
+
+QUESTION 1iii:
+Develop the full class diagram for FIG 1.	ANSWER:
+	Doctor
+
+	+Name
++Phone #
++Email
+
+	+register()
++de-register()
+
+
+
+
+
+
+
+
+
+
+	Hospital doctor
+
+	+Staff #
++Pager #
+
+	+Prescribe ( )
++CheckMessages()
++EditProfile()
+
+
+	General
+practitioner
+
+	+Practice
++Address
+
+	+Prescribe ( )
++CheckMessages()
++EditProfile()
+
+
+
+
+
+
+
+
+		
+
+	Consultant
+
+	+Practice
++Address 
++Pager #
+
+	+Prescribe ( )
++CheckMessages()
++EditProfile()
+
+
+	Trainee
+doctor
+
+	+Staff #
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+QUESTION 2:
+Succinctly describe the principles that may be applied when identifying designing objects. 	
+ANSWER:
+Component-based software engineering (CBSE) is an approach to software systems development based on reusing software components.
+The essentials of component-based software engineering are:
+1. Independent components that are completely specified by their interfaces. 
+             There should be a clear separation between the component interface and its       implementation. This means that one implementation of a component can be replaced by another, without the need to change other parts of the system.
+
+2. Component standards that define interfaces and so facilitate the integration of components. 
+                These standards are embodied in a component model. They define, at the very minimum, how component interfaces should be specified and how components communicate. Some models go much further and define interfaces that should be implemented by all    conformant components. If components conform to standards, then their operation is independent of their programming language. Components written in different languages can be integrated into the same system.
+
+3. Middleware that provides software support for component integration. To make independent, distributed components work together, you need middleware support that handles component communications. Middleware for component support handles low-level issues efficiently and allows you to focus on application-related problems. In addition, middleware for component support may provide support for resource allocation, transaction management, security, and concurrency.
+
+4. A development process that is geared to component-based software engineering. You need a development process that allows requirements to evolve, depending on the functionality of available components.
+
+
+
+
+QUESTION 3:
+Briefly discuss 10 cross platform software development tools, state your reason for choosing the platform tool.	
+ANSWER:
+
+	S/N
+	TOOL
+	DESCRIPTION
+	REASON FOR CHOOSING
+
+	1
+	Atom
+
+	Atom is an open source and free desktop editor cum source code editor that is up-to-date, friendly and hackable to the core..
+	· Atom supports cross-platform editing and works for various operating systems like Windows, Linux and OS X.
+· Atom is a customizable tool with which one can effectively edit the look & feel of the User Interface, add few important features etc., without editing the configuration file.
+· Atom is used to build cross-platform applications with web technologies using a framework called ‘Electron’.
+
+
+	2
+	NetBeans
+
+	NetBeans is an open source and a free software development tool written in Java that develops world-class web, mobile, and desktop applications easily and quickly. It uses C / C++, PHP, JavaScript, Java etc.
+	· NetBeans supports cross-platform and works on any operating system like Linux, Mac OS, Solaris, Windows etc.
+· NetBeans offers features like Smart Code Editing, writing bug-free code, easy management process, and quick user interface development.
+· Java applications can be easily updated to its newer editions using the code analyzers, editors and converters offered by NetBeans 8 IDE.
+· Features of NetBeans IDE that made it the best tool are debugging, profiling, dedicated support from the community, powerful GUI builder, out of box working, support for Java platforms etc.
+· The well-organized code in NetBeans allows its new developers to understand the structure of the application.
+
+
+	
+	
+	
+	· 
+
+	3
+	Linx
+
+	Linx is low code tool to build and automate backend applications and web services. The tool accelerates the design, development and automation of custom business processes, including easy integration of applications, systems and databases.
+	· Easy-to-use, drag-and-drop IDE and Server
+· Over 100 pre-built plugins programming functions and services for rapid development
+· One-click deployment to any local or cloud server
+· Input and outputs include nearly any SQL & NoSQL databases, numerous file formats (text and binary) or REST and SOAP Web services
+· Live debugging with step through logic
+· Automate processes via timer, directory events or message queue or expose web services, and call APIs via HTTP requests
+
+	
+
+	4
+	GitHub
+
+	GitHub is a powerful collaboration tool and development platform for code review and code management. With this GitHub, the users can build applications and software, manage the projects, host the code, review the code etc.
+	· With GitHub, developers can easily document their code and can host the same from the repositories.
+· GitHub’s project management tools help its users to stay aligned, co-ordinate easily and get their task done accordingly.
+· Few features of GitHub that make it a useful tool are its code security, access control among the team members, integration with other tools etc.
+· Few developers use GitHub for experimenting new programming languages in their personal projects.
+· GitHub can be hosted on servers and on a cloud platform. It runs on Windows and Mac OS.
+· GitHub is free for open source projects and public use. For developers it is charged @ $7/month, for teams @ $9/month and for organizations it is $21/month.
+
+
+	5
+	 Bootstrap
+
+	Bootstrap is an open source and free framework for developing responsive websites and mobile-first projects using CSS, HTML, and JS. Bootstrap is widely used to design faster and simpler websites.
+	· As Bootstrap is an open source toolkit, one can customize it according to their project’s requirement.
+· Bootstrap is provided with built-in components which are used in accumulating responsive websites by a smart drag and drop facility.
+· Powerful features of Bootstrap like a responsive grid system, plug-ins, pre-built components, sass variables & mixins allow its users to build their applications.
+· Bootstrap is a front-end web framework that is used for quick modeling of the ideas and building of the web applications.
+· This tool guarantees consistency among all the developers or users working on the project.
+
+
+	6
+	Eclipse
+
+	Eclipse is the most popular IDE that is used by Java developers in computer programming. It is used to develop applications not only in Java but also in other programming languages like C, C++, C#, PHP, ABAP etc.
+	· Eclipse is an open source group of projects, tools and collaborative working groups which play a key role in the development of new solution and innovations.
+· Eclipse Software Development Kit (SDK) is a free and open source software which is used by the developers in programming as per their respective programming languages.
+· Eclipse is used in creating web, desktop and cloud IDEs which in turn delivers the wide collection of add-on tools for software developers.
+· Advantages of Eclipse are refactoring, code completion, syntax checking, rich client platform, error debugging, industrial level of development etc.
+· One can easily integrate Eclipse with other frameworks like TestNG, JUnit, and other plug-ins.
+
+
+	7
+	Dreamweaver
+
+	Adobe Dreamweaver is an exclusive software program and programming editor that is used for creating simple or complex websites. It supports many markup languages like CSS, XML, HTML, and JavaScript.
+	· Dreamweaver is used across Linux and Windows operating systems including iOS devices.
+· Dreamweaver CS6 provides you with a preview option with which one can look at the preview of the designed website on any desired device.
+· The latest version of Dreamweaver is used to design responsive websites.
+· Another version of Dreamweaver, named Dreamweaver CC combines a code editor and a design surface termed as a Live view to offer some advanced features like auto-completion of code, code collapsing, real-time syntax checking, syntax highlighting and code inspection.
+· Dreamweaver offers various plans, for individuals @ $19.99/month, for business @ $29.99/month and for schools or Universities @ $ 14.99/user/month.
+
+
+	8
+	Node.js
+
+	Node.js is an open source, cross-platform and JavaScript run-time environment that is built to design a variety of web applications and to create web servers and networking tools.
+	· Node.js applications run on Windows, Linux, Mac OS, Unix etc.
+· Node.js is efficient and lightweight as it uses non-blocking and event-driven I/O model.
+· Node.js is used by developers to write server-side applications in JavaScript.
+· Node.js modules are used to provide rapid and well-organized solutions for developing back-end structure and integrating with the front-end platforms.
+· The largest ecosystem of open source libraries is available with node.js package.
+· Various IT Companies, software developers, small & large business organizations use node.js for developing web and network server applications in their projects.
+
+
+	9
+	Codenvy
+
+	Codenvy is a cloud development environment used for coding and debugging the applications. It can support sharing projects in real-time and can collaborate with others.
+	· As Codenvy is a cloud-based IDE there is no need for any installation and configuration of this software development tool.
+· Codenvy can be integrated with Jira, Jenkins, Eclipse Che extensions and to any private toolchain.
+· Codenvy can be customized in many ways using IDE extensions, Eclipse Che, commands, stacks, editors, assemblies, RESTful APIs, and server-side extension plug-ins.
+· Codenvy can run on any operating system like Windows, Mac OS, and Linux. It can also run in the public or private cloud.
+· Command-line installers generated by Codenvy are used for deploying in any environment.
+· It is available at a free of cost up to 3 developers and for more users, it costs at $20/user/month.
+
+
+
+
+
+
+

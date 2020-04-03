@@ -1,0 +1,124 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLAIYA VICTOR OMOKUDU
+
+
+ENG1406904
+300L
+
+COMPUTER ENGINEERING
+
+
+COMPUTER ARCHITECTURE AND ORGANIZATION
+
+
+CPE 375
+
+
+ASSIGNMENT
+JUSTIFY WHICH OF THE TECHNOLOGIES IS BEST IN TERMS OF EXECUTION TIME (BETWEEN RISC AND CISC).
+This argument of which of the instruction set architecture is better is decades old and the practical distinction (Cost, Performance, Complexity) between the two has become almost negligible which is also in agreement with Moore’s Law which states that “over time, improvements in chip fabrication techniques have improved performance exponentially.” To answer the above question we need to know what ISA, RISC, CISC & Execution Time is.
+Instruction set architecture (ISA) is the set of processor design techniques used to implement the instruction work flow on hardware. In more practical words, ISA tells you that how your processor going to process your program instructions.
+Reduced Instruction Set Computers (RISC) is a type of microprocessor architecture that utilizes a small, highly-optimized set of instructions, rather than a more specialized set of instructions often found in other types of architectures, in other words they are types of computers that are designed to perform a smaller number of types of computer instructions so that it can operate at a higher speed (perform more millions of instructions per second, or MIPS). The concept was used in Sun Microsystems' SPARC microprocessors.
+Complex Instruction Set Computers is a microprocessor design, where single instructions can execute several low-level operations (such as a load from memory, an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions.
+Execution Time or CPU time (or CPU Execution time) is the time between the start and the end of execution of a given program. This time accounts for the time CPU is computing the given program, including operating system routines executed on the program’s behalf, and it does not include the time waiting for I/O and running other programs. CPU time depends on the program which is executed, the number of instructions executed, types of instructions executed and their frequency of usage.
+Before the processor executes the instructions, the compiler convert instructions in high level languages into their equivalent low level languages, if these high level languages are programmed for complex mathematical functions, compilers had to convert or translate complex subroutines into long sequences of machine functions. So the compiler development was time consuming and tricky. In order to make easy development of the compiler, CISC was developed. The main aim of designing CISC based processors is to build the processor with more complex instruction set.
+In RISC architecture, the instruction set of the computer is simplified to reduce the execution time. It uses small and highly optimized set of instructions which are generally register to register operations. The speed of the execution is increased by using smaller number of instructions as compared with single long instruction (in case of CISC architecture). And the optimization of each instruction in the processor is achieved through pipeline technique.
+Consider the example of adding two numbers: A + B = A
+CISC: The primary goal of CISC architecture is to complete a task in as few lines of assembly as possible, this approach will use a specialized function called SUM which has the capacity of loading the values of A and B to registers, also adding the two values together and finally stores the sum in the appropriate register.
+SUM A, B: SUM is known as a complex instruction.
+RISC: This type of architecture uses simple instructions. The SUM instruction described above will be split into three instructions which are LOAD, ADD, STORE i.e. it LOADS the value of A and B into registers, ADDs A and B and STOREs the sum in A.
+After a CISC-SUM command is executed, the processor automatically erases the registers. If one of the operands needs to be used for another computation, the processor must re-load the data from the memory bank into a register. In RISC, the operand will remain in the register until another value is loaded in its place, this results in higher execution time in RISC if an operand is to be used multiple times on a processor.
+In conclusion, RISC processors which are single clock processor in contrast with CISC which are multi clock processors, were designed with the objective of achieving a higher execution time than the already existing type of instruction set architecture, as a result of the higher execution time in RISC they found application in fast response systems like microcontrollers, embedded systems in general as well as mobile devices.
+
+
+DISCUSS FACTORS THAT AFFECTED THE TECHNOLOGICAL DEVELOPMENT OF COMPUTER SYSTEMS OVER TIME.
+The technological development of computer systems over time has increased exponentially with time, according to Moore’s law, this law directly interprets the rate and manner at which computer systems are developing. They are some factors that influenced and also skyrocketed the technological development of computer systems, these factors will be discussed in details below.
+· ACCOUNTABILITY:
+In early days when our ancestor used to reside in cave the counting was a problem. Still it is stated becoming difficult. When they started using stone to count their animals or the possession they never knew that this day will lead to a computer of today. Some of the device developed before the 20th century includes:
+ABACUS: Abacus is known to be the first mechanical calculating device. Which was used to be performed addition and subtraction easily and speedily.
+NAPIER’S BONES: John Napier of Scotland invented a calculating device, in the year 1617 called the Napier Bones. In the device, Napier’s used the bone rods of the counting purpose where some no. is printed on these rods. These rods that one can do addition, subtraction, multiplication and division easily.
+Other devices invented during this period used for calculating includes: PASCAL’s Calculator (1642), LIEBNIZ Calculator (1671), and ANALYTICAL ENGINE (1833).
+·  RESEARCH (UNIVERSITIES AND RESEARCH CENTRES):
+The ﬁrst recorded university-based attempt to build a computer originated on Iowa State University campus in the early 1940s. Researchers on that campus were able to build a small-scale special-purpose electronic computer. The first operational general purpose machine was built by the University of Pennsylvania in the year 1944, the computer was called Electronic Numerical Integrator and Calculator (ENIAC). . It was programmable through manual setting of switches and plugging of cables. Also during this period researchers at the Institute for Advanced Study (IAS) at Princeton (in 1946) built the IAS machine, which was about 10 times faster than the ENIAC. In 1949, Electronic Delay Storage Automatic Calculator, the EDSAC became the world’s ﬁrst full-scale, stored-program, fully operational computer which was initiated and completed in Cambridge University. A spin-off of the EDSAC resulted in a series of machines introduced at Harvard. The series consisted of MARK I, II, III, and IV. The latter two machines introduced the Harvard Architecture.
+· WARFARE: 
+War always lead to new weapons, devices and technology which countries usually develop to surpass, outsmart and conquer their enemies in combat, this was the case in the 20th century, during the World War II.
+The Germans had two devices used to encrypt messages prior to radio transmission which their cryptanalyst thought were unbreakable, but they were profoundly mistaken. Britain cryptanalyst continually broke the got vital information called ULTRA from the German devices called ENIGMA and FISH, which changed the course of history. The breaking of ENIGMA was done by hand at first, then an electro mechanical device was developed to get the job done. It was the breaking of FISH encryption that changed the course of history. This was done by an electronic device called COLOSSUS Mk developed by tommy flowers. Although no publications have been made concerning FISH decryptions which makes it impossible to know how COLOSSUS Mk contributed to ULTRA but what is known is that the FISH traffic contained the most vital secrets of the German High Command and that without Colossus the Allied penetration of the FISH ciphers could not have occurred in the abundance in which it did. ENIAC was also another machine use for the purpose of War, the machine was primarily built to help compute artillery ﬁring tables during World War II.
+· DEVELOPMENT IN MATERIAL SCIENCE AND COMPONENTS FABRICATIONS:
+The early computer systems used vacuum tubes for switching and amplification, punched card for input and output etc. due to the advancement in material science and engineering which led to development of transistors and semiconducting materials that allowed the ability to integrate so many transistor in one silicon chip, this revolutionised computer systems, without transistors vacuum tubes would most likely be the most advanced available technology and the advanced computer systems today would certainly be unavailable. The introduction of semiconductors and transistors further led to the small scale integrated-circuit (SSI), after this came large scale integrated-circuit (LSI), then the very large scale integrated circuit (VLSI), and finally the wafer scale integrated-circuit (WSI). The integrated circuits have two main advantage over discrete circuit which are cost and performance, cost in the sense that the transistors don’t have to be constructed one at a time rather they are printed as a unit with photolithography and increased performance due to faster switching and lesser power consumption.
+
+Another factor that affected the technological development of computer systems is COMPETITION between companies involved in manufacturing of computers and computer related devices such as IBM, APPLE, DELL, INTEL, AMD etc.
+REFERENCES:
+
+Fundamentals of Computer Organization, Mostafa Abd-El-Barr King Fahd University of Petroleum & Minerals (KFUPM), Hesham El-Rewini Southern Methodist University, WILEY, 2005.
+
+Computer System Architecture (3rd Ed), M Morris Mano.
+
+http://www.tech-faq.com/risc-vs-cisc.html
+
+http://sunnyeves.blogspot.com.ng/2009/07/intel-x86-processors-cisc-or-risc-or.html
+
+http://www.firmcodes.com/difference-risc-sics-architecture/
+
+http://electronicpull.blogspot.com.ng/2016/05/risc-and-cisc-architectures.html
+
+http://cs.stackexchange.com/questions/269/why-would-anyone-want-cisc/284
+
+https://en.wikipedia.org/wiki/Reduced_instruction_set_computing
+
+https://en.wikipedia.org/wiki/Complex_instruction_set_computing
+
+http://www.ellsbury.com/ultrafirstcomputers.htm
+
+http://wikieducator.org/History_of_Computer_Development
+
+http://www.computerhope.com/issues/ch000984.htm
+
+

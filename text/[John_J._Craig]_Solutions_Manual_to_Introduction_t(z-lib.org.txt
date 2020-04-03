@@ -1,0 +1,404 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upper Saddle River, New Jersey 07458
+
+INTRODUCTION TO
+
+ROBOTICS
+MECHANICS AND CONTROL
+
+THIRD EDITION
+
+JOHN J. CRAIG
+
+SOLUTIONS MANUAL
+
+
+
+Associate Editor: Alice Dworkin
+Executive Managing Editor: Vince O'Brien
+Managing Editor: David A. George
+Production Editor: Craig Little
+Supplement Cover Manager: Daniel Sandin
+Manufacturing Buyer: Ilene Kahn 
+
+© 2005 by Pearson Education, Inc. 
+Pearson Prentice Hall
+Pearson Education, Inc.
+Upper Saddle River, NJ 07458
+
+The author and publisher of this book have used their best efforts in preparing this book. These
+efforts include the development, research, and testing of the theories and programs to determine
+their effectiveness. The author and publisher make no warranty of any kind, expressed or implied,
+with regard to these programs or the documentation contained in this book. The author and pub-
+lisher shall not be liable in any event for incidental or consequential damages in connection with,
+or arising out of, the furnishing, performance, or use of these programs.
+
+Pearson Prentice Hall® is a trademark of Pearson Education, Inc.
+
+Printed in the United States of America
+
+10  9  8  7  6  5  4  3  2  1
+
+ISBN 0201-54362-1
+
+Pearson Education Ltd., London
+Pearson Education Australia Pty. Ltd., Sydney
+Pearson Education Singapore, Pte. Ltd.
+Pearson Education North Asia Ltd., Hong Kong
+Pearson Education Canada, Inc., Toronto
+Pearson Educación de Mexico, S.A. de C.V.
+Pearson Education—Japan, Tokyo
+Pearson Education Malaysia, Pte. Ltd.
+Pearson Education, Inc., Upper Saddle River, New Jersey
+
+This work is protected by United States copyright laws and is provided solely for the use of
+instructors in teaching their courses and assessing student learning.  Dissemination or sale of any
+part of this work (including on the World Wide Web) will destroy the integrity of the work and is
+not permitted. The work and materials from it should never be made available to students except
+by instructors using the accompanying text in their classes. All recipients of this work are expected
+to abide by these restrictions and to honor the intended pedagogical purposes and the needs of
+other instructors who rely on these materials.
+
+All rights reserved. No part of this book may be reproduced in any form or by any means, without
+permission in writing from the publisher.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

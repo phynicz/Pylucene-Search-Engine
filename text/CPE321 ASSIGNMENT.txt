@@ -1,0 +1,694 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAME: GWAM ONYELUKACHUKWU NORA
+
+MATRICULATION: ENG1508326
+
+COURSE: CPE 321
+
+LEVEL: 300
+QUESTIONS
+1.Discuss features of programming languages. 
+2.Outline 3 distinct programming languages per category.
+3.In a tabular form,group the programming languages according to type.
+4.Write simple/basic examples of programming languages and run a simple program for all languages.
+5.compare Java and C# and state their uses.
+
+
+
+
+
+
+
+
+
+
+COMMERCIAL PROGRAMMING LANGUAGE 
+List of programming languages by type
+1. Array language.
+· A+
+· Analytica
+· APL
+· Chapel
+· Fortran
+· Freemat
+· GAUSS
+· J
+· Julia
+· K
+· MATLAB
+2. Authoring languages
+· Bigwig (web design and development language)
+· PILOT
+· TUTOR
+· Lasso
+3. Command line interface languages	
+Command-line interface (CLI) languages are also called batch languages, or job control languages. Examples:
+· 4DOS (extended command-line shell for IBM PCs)
+· bash (the Bourne-Again shell from GNU/FSF)
+· CHAIN (Datapoint)
+· CLIST (MVS Command List)
+· CMS EXEC
+· csh and tcsh (C-like shell from Bill Joy at UC Berkeley)
+· DCL DIGITAL Command Language – standard CLI language for VMS (DEC, Compaq, HP)
+· DOS batch language (standard CLI/batch language for the IBM PC running DOS operating systems, popular before Windows)
+
+4. Compiled languages
+· Ada (multi-purpose language)
+· ALGOL (extremely influential language design – the second high level language compiler) 
+· SMALL Machine Algol Like Language
+· Ateji PX, an extension of the Java language for parallelism
+· BASIC (some dialects, including the first version of Dartmouth BASIC)
+· BCPL
+· Blue
+· C (one of the most widely used procedural programming languages)
+· C++ (One of the most widely used object-oriented (OO) languages specially used in large-scale, highly complex, high-performance software systems)
+· C# (compiled into intermediate language, which generates a native image at runtime)
+· Visual Basic (Earlier versions compiled directly to a native runtime. Recent .NET versions compile into intermediate language that is just-in-time compiled into a native image at runtime.)
+· Visual FoxPro
+· Visual Prolog
+· X++
+· X#
+· XL
+· Z++
+5. Concurrent languages
+· Ada (multi-purpose language)
+· Alef – concurrent language with threads and message passing, used for systems programming in early versions of Plan 9 from Bell Labs
+· Ateji PX an extension of the Java language for parallelism
+· ChucK – domain specific programming language for audio, precise control over concurrency and timing
+· Cilk – a concurrent C
+· Cω – C Omega, a research language extending C#, uses asynchronous communication
+· Clojure – a dialect of Lisp for the Java virtual machine
+· Chapel
+· Co-array Fortran
+· Concurrent Pascal (by Brinch-Hansen)
+· Curry
+· E – uses promises, ensures deadlocks cannot occur
+· Eiffel (through the SCOOP mechanism, Simple Concurrent Object-Oriented Computation)
+· Erlang – uses asynchronous message passing with nothing shared
+· Go
+· Java 
+· Join Java – concurrent language based on Java
+· X10
+· Julia
+· Join-calculus
+· Joule – dataflow language, communicates by message passing
+· Limbo – relative of Alef, used for systems programming in Inferno (operating system)
+· MultiLisp – Scheme variant extended to support parallelism
+· occam – influenced heavily by Communicating Sequential Processes (CSP) 
+· occam-π – a modern variant of occam, which incorporates ideas from Milner's π-calculus
+· Orc
+· Oz – multiparadigm language, supports shared-state and message-passing concurrency, and futures, and Mozart Programming System cross-platform Oz
+· Pict – essentially an executable implementation of Milner's π-calculus
+· Rust – actor-based
+· SALSA – actor language with token-passing, join, and first-class continuations for distributed computing over the Internet
+· Scala – implements Erlang-style actors on the JVM
+· SequenceL – purely functional, automatically parallelizing and race-free
+· SR – research language
+· Unified Parallel C
+· XProc – XML processing language, enabling concurrency
+4.  Curly-bracket languages
+· ABCL/c+
+· AutoHotkey
+· AWK
+· B
+· bc
+· BCPL
+· C – developed circa 1970 at Bell Labs
+· C++
+· C#
+· Ceylon
+· ChucK – audio programming language
+· Cilk – concurrent C for multithreaded parallel programming
+· COFFEE
+· Cyclone – a safer C variant
+· D
+· Dart
+· DASL – based on Java
+· E
+· eC
+· ECMAScript 
+· ActionScript
+· ECMAScript for XML
+· JavaScript
+· JScript
+· TypeScript
+· GML (Game Maker Language)
+· GLSL
+· ICI
+· Java 
+· Processing
+· Groovy
+· Join Java
+· Kotlin
+· Tea
+· X10
+· LPC
+· MSL
+· MEL
+· Nemerle – combines C# and ML features, provides syntax extension abilities
+· PCASTL
+· Perl
+· PHP
+· Pico
+· Pike
+· R
+· Rust
+· S-Lang
+· Scala
+· sed
+· SuperCollider
+· Swift
+· UnrealScript
+· Windows PowerShell (Microsoft .NET-based CLI)
+       5.      DATA FLOW LANGUAGES
+· Hartmann pipelines
+· G (used in LabVIEW)
+· Lucid
+· Max
+· Oz
+· Prograph
+· Pure Data
+· Reaktor
+· StreamBase StreamSQL EventFlow
+· VEE
+· VHDL
+· VisSim
+· WebMethods Flow
+6. Embeddable languages
+Server side
+· PHP
+· VBScript
+· SMX – dedicated to web pages
+· WebDNA – dedicated to database-driven websites
+Client side
+· ActionScript
+· Java
+· JavaScript
+· ECMAScript
+· JScript
+· VBScript (Windows only)
+In object code
+· AngelScript
+· Ch
+· EEL
+· Io
+· Julia
+· Lua
+· MiniD
+· Python
+· Ruby (via mruby)
+· Squirrel
+· Tcl
+7. Educational languages
+· Alice
+· Blockly
+· Blue
+· COMAL
+· Elan
+· Logo
+· KTurtle
+· Modula-2
+· Pascal
+8. Esoteric languages
+· Beatnik
+· Befunge
+· Brainfuck
+· Chef
+· INTERCAL
+· LOLCODE
+· Malbolge
+9. Extension languages
+· Ateji PX – an extension of the Java language for parallelism
+· AutoLISP (specific to AutoCAD)
+· BeanShell
+· CAL
+· C/AL(C/SIDE)
+· Guile
+· Emacs Lisp
+· JavaScript and some dialects (e.g. JScript)
+· Lua – e.g. embedded in many games
+· OpenCL – an extension of C and C++ to use the GPU and parallel extensions of the CPU
+10.  Fourth-generation languages
+· ABAP
+· CorVision
+· CSC's GraphTalk
+· Easytrieve report generator (now CA-Easytrieve Plus)
+· FOCUS
+· IBM Informix-4GL / Aubit-4GL
+· LANSA
+· LINC 4GL
+· MAPPER (Unisys/Sperry) – now part of BIS
+· MARK-IV (Sterling/Informatics) now VISION:BUILDER of CA
+11.Functional languages
+See also: Category:Functional languages
+Functional programming languages define programs and subroutines as mathematical functions. Many so-called functional languages are "impure", containing imperative features. Many functional languages are tied to mathematical calculation tools. Functional languages include:
+Pure
+· Agda
+· Charity
+· Clean
+· Coq (Gallina)
+· Curry
+· Elm
+Impure
+· APL
+· ATS
+· CAL
+· C
+· C++ (since C++11)
+· C#
+12.	Hardware description languages
+HDLs for analog circuit design
+· Verilog-AMS (Verilog for Analog and Mixed-Signal)
+· VHDL-AMS (VHDL with Analog/Mixed-Signal extension)
+HDLs for digital circuit design
+· Advanced Boolean Expression Language (ABEL)
+· Altera Hardware Description Language (AHDL)
+· Bluespec
+· Chisel
+· Confluence
+· ELLA
+· ESys.net
+· Handel-C
+· HHDL
+
+
+14. Imperative languages
+Imperative programming languages may be multi-paradigm and appear in other classifications. Here is a list of programming languages that follow the imperative paradigm:
+· Ada
+· ALGOL
+· BASIC
+· Blue
+· C
+· C++
+· C#
+· Ceylon
+· COBOL
+15.	Interactive mode languages
+· APL
+· BASIC (some dialects)
+· Clojure
+· Common Lisp
+· Dart (with Observatory or Dartium's developer tools)
+· Erlang
+· F#
+· Forth
+· FPr
+· Fril
+· GAUSS
+· Groovy
+17. Interpreted languages
+Interpreted languages are programming languages in which programs may be executed from source code form, by an interpreter. Theoretically, any language can be compiled or interpreted, so the term *interpreted language* generally refers to languages that are commonly interpreted rather than compiled.
+· Ant
+· APL
+· AutoHotkey scripting language
+· AutoIt scripting language
+· BASIC (some dialects)
+· DATABUS (later versions added optional compiling)
+· DM
+· Eiffel (via "Melting Ice Technology" in EiffelStudio)
+· Mathematica
+· MATLAB
+· Oriel
+· Pascal (early implementations)
+· PCASTL
+18. Iterative languages
+Iterative languages are built around or offering generators.
+· Aldor
+· Alphard
+· C#
+· CLU
+· Cobra
+· ECMAScript, as of version 6
+· Eiffel, through "agents"
+· Icon
+· IPL-v
+· Julia
+19.	little languages
+· awk – can serve as a prototyping language for C (shares similar syntax)
+· Comet – used to solve complex combinatorial optimization problems in areas such as resource allocation and scheduling
+· SQL – has only a few keywords, and not all the constructs needed for a full programming language[1] – many database management systems extend SQL with additional constructs as a stored procedure language
+20.	Logic-based languages
+· ALF
+· Alma-0
+· CLACL (CLAC-Language)
+· Curry
+· Fril
+· Janus
+21.	Machine languages
+· IBM System/360 and successors, including z/Architecture
+· MIPS
+· Motorola 6800
+· Motorola 68000 family (CPUs used in early Apple Macintosh and early Sun computers)
+· MOS Technology 65xx 
+· 6502 (CPU for VIC-20, Apple II, and Atari 800)
+· 6510 (CPU for Commodore 64)
+· Western Design Center 65816/65802 (CPU for Apple IIGS and (variant) Super Nintendo Entertainment System)
+· National NS320xx
+· Power Architecture 
+· POWER, first used in the IBM RS/6000
+· PowerPC – used in Power Macintosh and the technology is used in many older generation game consoles
+· Sun, Oracle SPARC
+· MCST Elbrus 2000
+22. Macro languages
+Textual substitution macro languages
+· cpp (the C preprocessor)
+· m4 (originally from AT&T, bundled with Unix)
+23. Metaprogramming languages
+· C++
+· Curl
+· D
+· eC
+· Elixir
+· Forth
+· Groovy
+· Haskell
+· Julia
+· Lisp
+· Lua
+· Maude system
+24.	Multiparadigm languages
+· Ada (concurrent, distributed, generic (template metaprogramming), imperative, object-oriented (class-based))
+· ALF (functional, logic)
+· Alma-0 (constraint, imperative, logic)
+· APL (functional, imperative)
+· BETA (functional, imperative, object-oriented (class-based))
+· C++ (generic, imperative, object-oriented (class-based), functional)
+· C# (generic, imperative, object-oriented (class-based), functional, declarative)
+· Ceylon (generic, imperative, object-oriented (class-based), functional, declarative)
+· ChucK (imperative, object-oriented, time-based, concurrent, on-the-fly)
+· Cobra (generic, imperative, object-oriented (class-based), functional, contractual)
+· Common Lisp (functional, imperative, object-oriented (class-based), aspect-oriented (user may add further paradigms, e.g., logic))
+· Curl (functional, imperative, object-oriented (class-based), metaprogramming)
+· Curry (concurrent, functional, logic)
+· F# (functional, generic, object-oriented (class-based), language-oriented)
+· Fantom (functional, object-oriented (class-based))
+· FPr (function-level, object-oriented (class-based))
+· Go (functional, object-oriented (class-based), imperative, procedural),
+· Groovy (functional, object-oriented (class-based),imperative,procedural)
+· Harbour
+· Hop
+· J (functional, imperative, object-oriented (class-based))
+· Julia (imperative, multiple dispatch ("object-oriented"), functional, metaprogramming)
+· LabVIEW (dataflow, visual)
+· Lava (object-oriented (class-based), visual)
+· Leda (functional, imperative, logic, object-oriented (class-based))
+· Lua (functional, imperative, object-oriented (prototype-based))
+· Mercury (functional, logical, object-oriented)
+· Metaobject protocols (object-oriented (class-based, prototype-based))
+· Nemerle (functional, object-oriented (class-based), imperative, metaprogramming)
+· Objective-C (imperative, object-oriented (class-based), reflective)
+· OCaml (functional, imperative, object-oriented (class-based))
+· Oz (functional (evaluation: eager, lazy), logic, constraint, imperative, object-oriented (class-based), concurrent, distributed), and Mozart Programming System cross-platform Oz
+25.	Numerical analysis
+· AIMMS
+· AMPL
+· Analytica
+· GAUSS
+· GAMS
+· Julia
+· Klerer-May System
+· Mathematica
+· MATLAB
+· PROSE
+· Seneca – an Oberon variant
+· Wolfram Language
+26.	Non-English-based languages
+· ARLOGO – Arabic
+· Chinese BASIC – Chinese
+· Fjölnir – Icelandic
+· Language Symbolique d'Enseignement – French
+· Lexico – Spanish
+· Rapira – Russian
+27.	Object-oriented class-based languages
+Multiple dispatch
+· Common Lisp
+· Cecil
+· Dylan
+· Julia
+Single dispatch
+· ActionScript 3.0
+· Actor
+· Ada 95 and Ada 2005 (multi-purpose language)
+· BETA
+· Blue
+· C++
+· C#
+· Ceylon
+· Oxygene (formerly known as Chrome)
+· ChucK
+· Cobra
+· ColdFusion
+· Curl
+· D
+· DASL
+· Delphi
+· E
+· GNU E
+· eC
+· Eiffel 
+· Sather
+· Ubercode
+· F-Script
+· Fortran 2003
+· Fortress
+· FPr
+28.	Object-oriented prototype-based languages
+Prototype-based languages are object-oriented languages where the distinction between classes and instances has been removed:
+· ABCL/1
+· ABCL/R
+· ABCL/R2
+· ABCL/c plus
+· Agora
+· Cecil
+· ECMAScript 
+· ActionScript
+· ECMAScript for XML
+· JavaScript (first named Mocha, then LiveScript)
+· JScript
+· Etoys in Squeak
+· Io
+· Lisaac
+· Lua
+· MOO
+· NewtonScript
+· Obliq
+· R
+· REBOL
+· Self (the first prototype-based language, derived from Smalltalk)
+· TADS
+29.	Off-side rule languages
+Off-side rule languages are those where blocks are formed, indicated, by their indentation.
+· ISWIM, the abstract language that introduced the rule
+· ABC, Python's parent 
+· Python 
+· Cobra
+· Boo
+· Genie
+· Miranda, Haskell's parent 
+· Orwell
+· Haskell 
+· Curry
+· Elixir
+· F#
+· Nim
+· Occam
+· SPIN
+· XL
+30.	Procedural languages
+· Ada (multi-purpose language)
+· ALGOL (extremely influential language design – the second high level language compiler) 
+· SMALL Machine Algol Like Language
+· Alma-0
+· BASIC (BASICs are innocent of most modularity in (especially) versions before about 1990)
+· BCPL
+· BLISS
+· Blue
+· C
+· C++ (C with objects plus much else, such as, generics through STL) 
+· Occam
+· Oriel
+· Pascal (successor to ALGOL 60, predecessor of Modula-2) 
+· Free Pascal (FPC)
+· Object Pascal (Delphi)
+· PCASTL
+· Perl
+· Pike
+· VBScript
+· Visual Basic
+· Visual FoxPro
+· Wolfram Language
+· X++
+· X#
+· XL
+31.	Reflective languages
+· Befunge
+· C#
+· Ceylon
+· Charm
+· ChucK
+· Cobra
+· Component Pascal BlackBox Component Builder
+· Curl
+· Delphi
+· eC
+· ECMAScript 
+· ActionScript
+· ECMAScript for XML
+· JavaScript
+· JScript
+· Eiffel
+· Forth
+· Harbour
+· Java 
+· Java virtual machine
+· Groovy
+· Join Java
+· X10
+· Julia
+· Lisp 
+· Clojure
+· Common Lisp
+· Dylan
+· Logo
+· Scheme
+· Lua
+· Maude system
+· .NET Framework Common Language Runtime
+32.	Rule-based languages
+· awk
+· CLIPS
+· Constraint Handling Rules
+· Drools
+· GOAL agent programming language
+· Jess
+· make
+· OPS5
+· Prolog
+· ToonTalk – robots are rules
+· Mathematica
+· XSLT[citation needed]
+· Wolfram Language
+33.	Scripting languages
+· AppleScript
+· AWK
+· BeanShell
+· Bash
+· Ch (Embeddable C/C++ interpreter)
+· CLIST
+· ColdFusion
+· ECMAScript 
+· ActionScript
+· ECMAScript for XML
+· JavaScript (first named Mocha, then LiveScript)
+· JScript
+· CMS EXEC
+· EXEC 2
+34.	Stack-based languages
+· Beatnik
+· colorForth
+· Factor
+· Forth
+· Joy (all functions work on parameter stacks instead of named parameters)
+· Piet
+· Poplog via its implementation language POP-11
+· PostScript
+· RPL
+35.	Synchronous languages
+· Argus
+· Averest
+· Esterel
+· Lustre
+· SyncCharts
+36.	Syntax handling languages
+These languages assist with generating lexical analyzers and parsers for Context-free grammars.
+· ANTLR
+· Coco/R (EBNF with semantics)
+· GNU bison (FSF's version of Yacc)
+· GNU Flex (FSF's version of Lex)
+· glex/gyacc (GoboSoft compiler compiler to Eiffel)
+· lex (Lexical Analysis, from Bell Labs)
+· M4
+· yacc (yet another compiler compiler, from Bell Labs)
+· JavaCC
+
+37.	Visual languages
+· Analytica
+· Blockly
+· CODE
+· DRAKON
+· Fabrik
+· G (used in LabVIEW)
+· Lava
+· Limnor
+· Max
+· NXT-G
+· Pict programming language
+· Prograph
+· Pure Data
+38.	Wirth languages
+· ALGOL W
+· Euler
+· Modula
+· Modula-2 (and Modula 3, etc. variants) 
+· Obliq Modula 3 variant
+· Oberon (Oberon, Oberon-07, and Oberon-2) 
+· Component Pascal
+· Lagoona
+· Oberon-2
+· Pascal 
+· Object Pascal ("umbrella" name for Delphi, Free Pascal, Oxygene and others)
+39.	XML-based languages
+These are languages based on or that operate on XML.
+· Ant
+· Cω
+· ECMAScript for XML
+· MXML
+· LZX
+· XAML
+· XPath
+· XQuery
+· XProc
+· XSLT
+Top of Form
+Bottom of Form
+
