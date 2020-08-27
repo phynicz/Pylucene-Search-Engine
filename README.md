@@ -1,4 +1,4 @@
-# Redai-Search-Engine
+# Pylucene-Search-Engine
 A desktop search engine built usine lucene and tika written in python 3 
 
 This search engine was built using pylucene 7.7 and tika, install and setup lucene and jcc and all dependencies.
